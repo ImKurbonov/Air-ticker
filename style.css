@@ -1,0 +1,121 @@
+/* ====== Start global styles ===== */
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url('background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* ====== End global styles ===== */
+
+.demo {
+    background-color: #fff;
+    border-radius: 8px;
+    width: 500px;
+    padding:50px;
+}
+
+.top-title-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.title {
+    color: #006cd1;
+    font-size: 60px;
+    font-weight: bolder;
+    margin: 0;
+}
+
+.title-comment {
+    color: #888;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.left {
+    margin-left: 38px;
+}
+
+.horizontal-row {
+    width: 30px;
+    height: 5px;
+    background-color: rgb(207, 207, 207);
+    margin: 0 50px;
+}
+
+.middle-list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.middle-item {
+    margin-right: 90px;
+    margin-bottom: 20px;
+}
+
+.middle-comment {
+    color: #888;
+    font-size: 12px;
+    font-weight: bold;
+    display:block;
+}
+
+.number {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.footer-section {
+    display: flex;
+}
+
+.footer-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.footer-item {
+    margin-bottom: 35px;
+}
+
+.footer-info {
+    color: #888;
+    font-size: 13px;
+    font-weight: bold;
+    display: block;
+}
+
+.footer-date {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.qr-code {
+    margin-left: 50px;
+}
